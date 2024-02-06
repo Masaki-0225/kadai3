@@ -9,6 +9,7 @@ public class Main {
         nameList.add(new Name("ジャック", 24));
         nameList.add(new Name("マーカス", 35));
         nameList.add(new Name("平川", 32));
+        nameList.add(new Name("ピカチュウ", 63));
 
         for (int i = 0; i < 5; i++) {
             try {
@@ -19,7 +20,6 @@ public class Main {
             } catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("この数値は存在しません；" + i);
             }
-
         }
     }
 }
