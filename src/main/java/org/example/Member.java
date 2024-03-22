@@ -9,6 +9,14 @@ public class Member {
         this.ult = ult;
     }
 
+
+    public String getName() {
+        return name;
+    }
+
+    public String getUlt() {
+        return ult;
+
     public void setName(String name) {
         this.name = name;
     }
