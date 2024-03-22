@@ -16,6 +16,7 @@ public class Member {
 
     public String getUlt() {
         return ult;
+    }
 
     public void setName(String name) {
         this.name = name;
