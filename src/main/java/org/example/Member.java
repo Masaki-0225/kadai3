@@ -8,4 +8,12 @@ public class Member {
         this.name = name;
         this.ult = ult;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setUlt(String ult) {
+        this.ult = ult;
+    }
 }
