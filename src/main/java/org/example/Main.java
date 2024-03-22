@@ -5,6 +5,10 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+
+        Hoge hoge = new Hoge("aaa");
+        hoge.ahoge();
+
         List<Name> nameList = new ArrayList<>();
         nameList.add(new Name("ジャック", 24));
         nameList.add(new Name("マーカス", 35));
